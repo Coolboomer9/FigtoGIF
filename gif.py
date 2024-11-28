@@ -20,7 +20,6 @@ def images_to_gif(image_folder, output_path, duration=0.5):
     imageio.mimsave(output_path, images, duration=duration)
     print(f"GIF saved to {output_path}")
 
-# 主程序
 if __name__ == "__main__":
     print("Please select the folder containing the images")
     image_folder = select_folder()
